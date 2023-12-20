@@ -1,0 +1,1076 @@
+.DialogFormElem {
+  background: rgb(240, 240, 240);
+  margin: 10px 0 0 0;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  text-decoration: none;
+  border: solid 1px rgb(187, 187, 187);
+  padding: 5px;
+  transition: all 0.4s;
+  border-radius: 5px;
+}
+.DialogFormElemNew{
+  background: rgb(203, 219, 255);
+  margin: 10px 0 0 0;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  text-decoration: none;
+  border: solid 1px rgb(187, 187, 187);
+  padding: 5px;
+  transition: all 0.4s;
+  border-radius: 5px;
+}
+.delFriends{
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+}
+.Dialog {
+  display: flex;
+}
+
+.DialogFormElemText h3 {
+  color: black;
+}
+.buttonMessages{
+  background: none;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.buttonMessages:active{
+  background: rgb(104, 205, 255);
+  border: none;
+}
+.DialogFormElemText>div {
+  width: 100%;
+  height: 50%;
+}
+
+.DialogFormElemText {
+  width: 95%;
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+}
+
+.DialogFormElemIMG {
+  width: 5%;
+
+}
+
+.DialogFormElem>div {
+  display: flex;
+  width: 100%;
+}
+.DialogFormElemNew > div{
+  display: flex;
+  width: 100%;
+}
+
+.DialogFormElemUser {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 20px;
+
+}
+
+.DialogDelete {
+  display: none;
+
+}
+
+.DialogFormElem:hover {
+  background: rgb(197, 197, 197);
+}
+
+.DialogFormElem div:hover~.DialogDelete {
+  display: block;
+}
+
+.DialogForm {
+  padding: 5px 15px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 92%;
+}
+
+.CommunityForm {
+  padding: 5px 10px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 92%;
+}
+.commentList{
+padding: 10px;
+}
+.commentElem{
+  border: solid 1px rgb(187, 187, 187);
+  padding: 5px;
+  transition: all 0.4s;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.contentP{
+  font-size: 15px;
+}
+.mainField {
+  display: flex;
+  padding: 30px 10px 0 0;
+  justify-content: space-evenly;
+}
+
+.mainDialog {
+  height: 100%;
+}
+
+.profileIMG {
+  border-radius: 50%;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.mainRight {
+  width: 90%;
+  border: solid 1px rgb(165, 165, 165);
+  border-radius: 5px;
+  background: white;
+  height: 85vh;
+}
+
+.mainRightNews {
+  width: 80%;
+}
+
+.mainRightCommunity {
+  width: 80%;
+  display: flex;
+  overflow: auto;
+  scroll-behavior: smooth;
+  height: 80vh;
+}
+
+.Community {
+  text-decoration: none;
+  color: black;
+}
+
+.communityElemImage {
+  border-radius: 50%;
+}
+
+.mainRightCommunity>div {
+  width: 100%;
+  padding: 5px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+.communityElem {
+  margin: 20px 0;
+  padding: 5px;
+  background: rgb(232, 232, 232);
+  width: 100%;
+  display: flex;
+  border: solid rgb(175, 175, 175) 1px;
+  border-radius: 5px;
+}
+
+.communityElem {
+  text-decoration: none;
+}
+
+.mainRightDialog {
+  height: 95%;
+}
+
+.dialogToUser {
+  display: flex;
+  padding: 5px;
+  align-items: center
+}
+
+.dialogToUser h1 {
+  margin: 0px 10px;
+}
+
+.mainRightFriend {
+  scroll-behavior: smooth;
+  height: 92%;
+  overflow: auto;
+  padding: 10px;
+}
+
+.mainRightFriend div {
+  margin: 5px 0;
+}
+
+.inputSearch {
+  width: 100%;
+  border: solid rgb(165, 165, 165);
+  border-width: 0px 0 1px 0;
+  display: flex;
+
+}
+
+.inputSearchText {
+  width: 100%;
+  margin: 2px 0;
+  border: 0;
+}
+
+.inputSearchText>input[type="text"] {
+  width: 100%;
+  font-size: 15px;
+  padding: 0px 0px 0 5px;
+  height: 100%;
+  border-width: 0;
+  outline: inherit;
+}
+
+.inputSearchImg {
+  padding: 5px;
+}
+
+.inputSearchBtn :active {
+  -webkit-box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0px 0px 13px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+.inputSearchBtn>button {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 3px 0 0;
+  border: solid rgb(165, 165, 165);
+  border-width: 0px;
+  background: rgb(255, 255, 255);
+}
+.SidePanel {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-content: space-between;
+  background: white;
+  border-radius: 5px;
+  border: solid 1px #aeaeae;
+  margin: 0 10px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 35vh;
+}
+
+.SidePanel button a {
+  padding-left: 10px;
+
+}
+
+.SidePanel button {
+  margin: 0px 0;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+  outline: inherit;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  border: solid #aeaeae;
+  border-width: 1px 0 0 0;
+}
+
+.SidePanel button:first-child {
+  border-top: none;
+  border-radius: 3px 3px 0 0;
+}
+
+.SidePanel button:last-child {
+  border-radius: 0 0 3px 3px;
+}
+
+.SidePanel button:hover {
+  background: rgb(245, 245, 245);
+}
+
+.SidePanel button:active {
+  background: rgb(199, 199, 199);
+}
+
+.TableStyle {
+  border: solid 10px white;
+  overflow: auto;
+  padding: 0px 0 15px 0px;
+  height: 90%;
+  scroll-behavior: smooth;
+  border: solid rgb(151, 151, 151);
+  border-width: 1px 0 1px 0;
+  scroll-behavior: smooth;
+  scroll-snap-align: end;
+  background: white;
+}
+
+.HeaderPanel {
+  display: flex;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 7px 12px 3px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 7px 12px 3px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.31);
+  justify-content: space-between;
+}
+
+.imgSelect {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.headerLogo {
+  display: flex;
+}
+
+.headerLogo div h2 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+}
+
+.headerLogoB button {
+  height: 100%;
+  padding: 5px 10px;
+  color: white;
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.headerLogoB button:hover {
+  background: rgb(232, 232, 232);
+}
+
+.headerLogoB button:active {
+  background: rgb(186, 186, 186);
+}
+
+/* панели SidePanel */
+.autoblock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.FromUserMessages {
+  background: rgb(29, 180, 255);
+  margin: 20px 10px 5px 40%;
+  word-break:break-all;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.ContentMessages{
+  width: 90%;
+}
+.ContentDate{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  
+}
+.ContentDate big{
+  padding-top: 10px;
+}
+.notificationTitle{
+  padding: 5px 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.notificationTitle button{
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.MessContent{
+  white-space: nowrap; /* Отменяем перенос текста */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ToUserMessage {
+  background: rgb(234, 234, 234);
+  margin: 20px 150px 5px 10px;
+  padding: 10px;
+  word-break:break-all;
+  width: 50%;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.ToUserMessage div {
+  display: flex;
+}
+.ToUserMessagediv h3 {
+  margin: 0;
+  padding: 0;
+}
+.AddElem {
+  background: wheat;
+}
+.Style.UserPadeStyle {
+  background: wheat;
+}
+.TableStyle div {
+  border-radius: 5px;
+}
+.Authdescription {
+  width: 25%;
+  border: solid 1px white;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  font-size: 12px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.Authdescription a {
+  color: rgb(0, 195, 195);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.Authdescription a:hover {
+  color: rgb(0, 79, 79);
+}
+.GalleryMyProfile {
+  display: flex;
+  justify-content: first baseline;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 10px;
+}
+.PhotoMyGallery {
+  margin: 1px;
+}
+.autoblock form {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  width: 25%;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.autoblock h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.autoblock form h1 {
+  font-size: 25px;
+}
+.autorize input, .autorize select{
+  width: 100%;
+  padding: 5px;
+  transition: all 0.2s;
+  font-size: 15px;
+  border: solid 1px rgb(81, 81, 81);
+  outline: none;
+  border-radius: 5px;
+  margin: 0px 0px 10px 0px;
+}
+.ErrorTxt {
+  border: solid 1px rgb(255, 0, 0);
+}
+.autorize input[name='pass'] {
+  -webkit-text-security: disc;
+}
+.autorize input[type='text']:focus {
+  border: solid 1px black;
+  border-radius: 5px;
+}
+.autorize button {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+}
+.hText h1 {
+  font-weight: 600;
+  position: relative;
+  font-size: 50px;
+  padding: 15px;
+  user-select: none;
+}
+.hText h2 {
+  position: relative;
+  padding: 10px;
+  user-select: none;
+}
+.hText h1::before,
+.hText h1::after {
+  padding: 10px;
+  content: "Connect";
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  background: rgb(225, 225, 225);
+}
+.hText h1::before {
+  left: 5px;
+  text-shadow: -2px 0 rgb(19, 191, 0);
+  animation-name: glitch-animation-1;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse-alternate;
+}
+.hText h1::after {
+  left: -20px;
+  text-shadow: -2px 0 blueviolet;
+  animation-name: glitch-animation-2;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse-alternate;
+}
+@keyframes glitch-animation-1 {
+  0% {
+    clip: rect(127px, 350px, 115px, 30px);
+  }
+  5% {
+    clip: rect(81px, 100%, 4px, 30px);
+  }
+  10% {
+    clip: rect(103px, 350px, 72px, 30px);
+  }
+  15% {
+    clip: rect(4px, 350px, 35px, 30px);
+  }
+  20% {
+    clip: rect(11px, 350px, 108px, 30px);
+  }
+  25% {
+    clip: rect(136px, 350px, 43px, 30px);
+  }
+  30% {
+    clip: rect(116px, 350px, 124px, 30px);
+  }
+  35% {
+    clip: rect(26px, 350px, 9px, 30px);
+  }
+  40% {
+    clip: rect(145px, 350px, 13px, 30px);
+  }
+  45% {
+    clip: rect(114px, 350px, 92px, 30px);
+  }
+  50% {
+    clip: rect(82px, 350px, 20px, 30px);
+  }
+  55% {
+    clip: rect(109px, 350px, 52px, 30px);
+  }
+  60% {
+    clip: rect(141px, 350px, 83px, 30px);
+  }
+  65% {
+    clip: rect(104px, 350px, 145px, 30px);
+  }
+  70% {
+    clip: rect(140px, 350px, 123px, 30px);
+  }
+  75% {
+    clip: rect(49px, 350px, 23px, 30px);
+  }
+  80% {
+    clip: rect(41px, 350px, 28px, 30px);
+  }
+  85% {
+    clip: rect(53px, 350px, 55px, 30px);
+  }
+  90% {
+    clip: rect(134px, 350px, 140px, 30px);
+  }
+  95% {
+    clip: rect(134px, 350px, 70px, 30px);
+  }
+  100% {
+    clip: rect(10px, 350px, 76px, 30px);
+  }
+}
+@keyframes glitch-animation-2 {
+  0% {
+    clip: rect(95px, 490px, 193px, 30px);
+  }
+  5% {
+    clip: rect(120px, 490px, 193px, 30px);
+  }
+  10% {
+    clip: rect(5px, 490px, 111px, 30px);
+  }
+  15% {
+    clip: rect(14px, 490px, 119px, 30px);
+  }
+  20% {
+    clip: rect(136px, 490px, 174px, 30px);
+  }
+  25% {
+    clip: rect(19px, 490px, 159px, 30px);
+  }
+  30% {
+    clip: rect(142px, 490px, 234px, 30px);
+  }
+  35% {
+    clip: rect(52px, 490px, 198px, 30px);
+  }
+  40% {
+    clip: rect(129px, 490px, 129px, 30px);
+  }
+  45% {
+    clip: rect(85px, 490px, 225px, 30px);
+  }
+  50% {
+    clip: rect(54px, 490px, 250px, 30px);
+  }
+  55% {
+    clip: rect(55px, 490px, 247px, 30px);
+  }
+  60% {
+    clip: rect(66px, 490px, 222px, 30px);
+  }
+  65% {
+    clip: rect(76px, 490px, 3px, 30px);
+  }
+  70% {
+    clip: rect(136px, 100%, 102px, 30px);
+  }
+  75% {
+    clip: rect(112px, 490px, 218px, 30px);
+  }
+  80% {
+    clip: rect(115px, 490px, 117px, 30px);
+  }
+  85% {
+    clip: rect(96px, 490px, 32px, 30px);
+  }
+  90% {
+    clip: rect(41px, 490px, 36px, 30px);
+  }
+  95% {
+    clip: rect(131px, 490px, 194px, 30px);
+  }
+  100% {
+    clip: rect(166px, 490px, 237px, 30px);
+  }
+}
+.friendPage {
+  height: 100%;
+}
+.friendList{
+  padding: 10px;
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 87%;
+}
+.dialogList {
+  scroll-behavior: smooth;
+  overflow: auto;
+  height: 100%;
+}
+.friendPageElem {
+  display: flex;
+  width: 100%;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background: rgb(227, 227, 227);
+  border: solid 1px rgb(165, 165, 165);
+  border-radius: 5px;
+ 
+}
+.friendPageElem> div{
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+.friendPageElem:hover{
+  background: rgb(200, 200, 200);
+}
+.newFriends{
+  font-size: 15px;
+  padding: 5px 20px;
+}
+.newFriendsElems{
+  display: flex;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: rgb(227, 227, 227);
+  border: solid 1px rgb(165, 165, 165);
+  justify-content: space-between;
+}
+.newBtn{
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+}
+.newFriendsElemsContent{
+  display: flex;
+}
+.newFriendsElemsLink{
+  text-decoration: none;
+  font-size: 16px;
+  color:black;
+}
+.friendTitle{
+  padding: 5px 10px;
+}
+.Link {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 20px;
+  width: 80%;
+  color: black;
+}
+.profileSet {
+  width: 90%;
+  height: 50%;
+}
+.profilePost {
+  margin: 10px 0 0 0;
+  background: white;
+  border: solid 1px rgb(165, 165, 165);
+  padding: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+.profilePost div textarea {
+  resize: none;
+  width: 100%;
+  height: 20%;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+}
+.profilePost div button {
+  font-size: 12px;
+  padding: 4px;
+}
+.LinkText {
+  text-decoration: none;
+  color: black;
+}
+.profile {
+  border-radius: 10px;
+  width: 100%;
+}
+.MyFriends {
+  width: 32%;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  margin: 2px 2px 0px 0;
+  height: 92px;
+  transition: all 0.3s;
+  /* border: solid 1px rgb(176, 176, 176); */
+}
+.MyFriends:hover {
+  background: #d3d3d3;
+}
+.profile>div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.IMG {
+  border-radius: 50%;
+}
+.profileMain {
+  display: flex;
+  width: 100%;
+  background: white;
+  border: solid 1px rgb(165, 165, 165);
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.ProfileIMGs {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.profileFriend {
+  width: 60%;
+  height: 230px;
+  background: white;
+  border: solid 1px rgb(165, 165, 165);
+  padding: 5px;
+  border-radius: 5px;
+  /* border: solid rgb(176, 176, 176);
+  border-width: 0px 1px 0 1px; */
+}
+.profileFriend>div {
+  display: flex;
+  height: 90%;
+
+  flex-wrap: wrap;
+}
+.profileGallery {
+  width: 80%;
+  padding: 5px;
+  background: white;
+  border: solid 1px rgb(165, 165, 165);
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.profileElem {
+  width: 85%;
+  padding: 5px;
+}
+.HeaderNotification::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: attr(data-count);
+  font-weight: 700;
+  right: 106px;
+  top: 0.50em;
+  color: white;
+  background-color: #ff0000;
+  border-radius: 50%;
+  width: 1.5em;
+  padding: 0;
+  transition: all 0.4s;
+  height: 1.5em;
+  /* border: solid 2px white; */
+}
+.HeaderNotification[data-count=""]::before {
+  display: none;
+}
+.inputMessages {
+  height: 5%;
+}
+.inputMessages input[type="text"] {
+  width: 90%;
+  height: 33px;
+  font-size: 15px;
+  padding-left: 5px;
+}
+.inputMessages button {
+  width: 10%;
+  height: 33px;
+  font-size: 15px;
+}
+.ProfileStatus{
+  word-break:break-all;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+.PostNews{
+  width: 90%;
+  display: flex;
+}
+.PostNewsElem{
+  width: 100%;
+  margin: 5px 0px;
+  background: white;
+  border: solid 1px rgb(165, 165, 165);
+  border-radius: 5px;
+  padding: 5px;
+}
+.PostNewsElem > div{
+  
+}
+.PostNews > div{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.PostContent{
+  width: 100%;
+  word-break: break-all;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  padding: 5px 0px;
+}
+.PostBtn button{
+  font-size: 11px;
+  padding: 2px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.PostUser{
+  display: flex;
+  width: 100%;
+}
+.PostNameUser{
+  display: flex;
+  
+}
+.notification{
+  background: rgb(236, 236, 236);
+  border: solid 1px rgb(165, 165, 165);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 10px;
+  display: flex;
+}
+.notificationContent{
+  padding-left:10px ;
+  width: 80%;
+}
+.notificationBtn{
+  width: 20%;
+  display: flex;
+   justify-content: flex-end;
+}
+.notificationBtn button{
+  font-size: 15px;
+  padding: 5px 10px;
+ 
+}
+.StyleGallery{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  padding: 5px;
+}
+.ImageGallery{
+  margin: 5px;
+}
+.settings{
+  display: flex;
+}
+
+.inputFile {
+	position: relative;
+	display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+}
+.inputFile span{
+  position: relative;
+  width: 100%;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 4px;
+	background-color: #0048ff;
+	line-height: 22px;
+	/* height: 40px; */
+	padding: 5px 10px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+ 
+}
+.inputFile input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.inputFile:hover span {
+	background-color: #2462ff;
+}
+.btnImg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.boxSettings{
+  width: 100%;
+  padding-left: 10px;
+}
+.boxSettings input[type="text"]{
+  font-size: 15px;
+  padding: 2px;
+  width: 50%;
+}
+.comboBox{
+  font-size: 15px;
+  padding: 2px;
+  width: 50%;
+}
+.boxSettings p{
+  padding: 2px 0px 5px 0px;
+}
+.boxSettings button{
+  margin-top: 5px;
+  margin-right: 10px;
+  background:#f0f0f0;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: solid 1px rgb(151, 151, 151);
+  border-radius: 5px;
+  font-size: 12px;
+}
+.boxSettings button:active{
+  background:#d5d5d5;
+}
+.NewsContex{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  word-break: break-all;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+}
+.newMessages{
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  position: absolute;
+  right: 83%;
+  margin-top: 5px;
+  background: rgb(0, 76, 255);
+  color:rgb(0, 76, 255);
+  border-radius: 50%;
+ 
+}
