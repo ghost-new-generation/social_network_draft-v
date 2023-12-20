@@ -1,0 +1,41 @@
+
+Select User_LastName, User_FirstName, genders.Gender_Title From createworld.users, createworld.genders where users.genders_id = genders.genders_id;
+
+
+
+INSERT INTO createworld.friends (Users_id, Friend_id, time_of_create) values (?,?,?);
+INSERT INTO createworld.friends (Users_id, Friend_id, time_of_create) values (?,?,?);
+
+SELECT * FROM createworld.friends, createworld.users where Users_id = User_id;
+
+INSERT INTO `createworld`.`dialog` (`UserID`, `DialogID`, `Dialog_Title`, `CodeDialog`) VALUES ('2', '2', 'Название2', '3');
+INSERT INTO `createworld`.`dialog` (`UserID`, `DialogID`, `Dialog_Title`, `CodeDialog`) VALUES ('4', '2', 'Название2', '4');
+
+
+Ввывод друзей 
+SELECT * FROM createworld.users where User_id NOT IN (Select Friend_id From createworld.friends Where Users_id = 2);
+
+UPDATE `createworld`.`users` SET `User_FirstName` = 'Личностьs' WHERE (`User_id` = '7');
+
+SELECT * FROM createworld.dialog, createworld.users where UserID = User_id and UserID NOT IN ( SELECT User_id FROM createworld.users where User_LastName = "Никита" and User_FirstName = "Васильев") and
+DialogID in (SELECT DialogID FROM createworld.dialog where UserID IN ( SELECT User_id FROM createworld.users where User_LastName = "Никита" and User_FirstName = "Васильев"));
+
+Поиск друзей
+SELECT *  FROM createworld.users where CONCAT(User_LastName, ' ', User_FirstName)  LIKE '%?%';
+
+Редактирование
+UPDATE createworld.users SET User_LastName = 'Секретная1', User_FirstName = 'Личность1', User_Password = 'pass71', User_Email = 'danil@yandex.ru1' WHERE (User_id = '7');
+
+Количество администраторов
+select count(roles_id) From createworld.users where roles_id = 1;
+
+Убрать повторы
+SELECT DISTINCT DialogID FROM createworld.dialog;
+
+SELECT DialogID From createworld.dialog where UserID = 4 and UserID not IN (SELECT User_id From createworld.users where User_LastName = "Никита" and User_FirstName = "Васильев")
+
+https://reactdev.ru/handbook/hooks-effect/?ysclid=lhnt3w9ch9728134706#example-using-hooks-1
+
+Уведомления - хочет добавить вас в друзья
+
+SELECT dbconnect.messages
