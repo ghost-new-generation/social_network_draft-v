@@ -19,6 +19,10 @@ export async function getServerSideProps(context: any) {
         props: { dataMessFromUser, messageLists }
     }
 }
+
+function Home(){
+    const elem = useState()
+}
 function HomeMessages({ dataMessFromUser, messageLists }: any) {
     const router = useRouter();
     const [numMessages, getnumMessages] = useState(0);
